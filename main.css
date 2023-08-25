@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+}
+
+main header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    padding: 1vh 1vw;
+    margin: 0 1vw;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    text-align: left;
+}
+
+select:hover {
+    background: rgba(0,0,0,0.1);
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    vertical-align: middle;
+    width: 100%;
+}
+
+table thead {
+    background: #ccc;
+}
